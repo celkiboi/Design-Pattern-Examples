@@ -1,0 +1,12 @@
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.deps.json
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\bin\Debug\net7.0\FactoryMethod.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.csproj.AssemblyReference.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.AssemblyInfoInputs.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.AssemblyInfo.cs
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.csproj.CoreCompileInputs.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\refint\FactoryMethod.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\FactoryMethod.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\FactoryMethod\obj\Debug\net7.0\ref\FactoryMethod.dll
