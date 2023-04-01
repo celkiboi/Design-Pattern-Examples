@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TiWzbtCGG6i31H5tM8+vZwoZdkesWCIXkuDMsF72fEQPucr2xyTExyQ4u+uDIVluPGTVhK3rrCTkH5vNJ2nb9g==",
+  "dgSpecHash": "Rf6jLdEab9nb779JTqOpCfqX+H8yjP9PS/8b2VKdSAxtg8bNGe5/lpc7xj+mzie9oW1mpSLO6d07K++DwtyUqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Runner\\_Runner.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\legot\\.nuget\\packages\\microsoft.visualstudio.testplatform\\14.0.0\\microsoft.visualstudio.testplatform.14.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

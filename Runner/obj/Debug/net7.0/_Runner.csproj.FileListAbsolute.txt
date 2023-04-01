@@ -18,3 +18,5 @@ C:\Users\legot\source\repos\RPPOON_Patterns\Runner\obj\Debug\net7.0\refint\_Runn
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\obj\Debug\net7.0\_Runner.pdb
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\obj\Debug\net7.0\_Runner.genruntimeconfig.cache
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\obj\Debug\net7.0\ref\_Runner.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll

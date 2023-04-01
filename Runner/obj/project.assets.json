@@ -2,6 +2,17 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Microsoft.VisualStudio.TestPlatform/14.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
       "Singleton/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15,6 +26,21 @@
     }
   },
   "libraries": {
+    "Microsoft.VisualStudio.TestPlatform/14.0.0": {
+      "sha512": "QlZrNka65U8Nn0NTVU+p6LqQUEUiWifUErbNRevT7zAirbi8xal45vnZLrx75ib2bTkFvhTydTtf3MVYX6hSAA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.testplatform/14.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "microsoft.visualstudio.testplatform.14.0.0.nupkg.sha512",
+        "microsoft.visualstudio.testplatform.nuspec"
+      ]
+    },
     "Singleton/1.0.0": {
       "type": "project",
       "path": "../RPPOON_Patterns/Singleton.csproj",
@@ -23,6 +49,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.VisualStudio.TestPlatform >= 14.0.0",
       "Singleton >= 1.0.0"
     ]
   },
@@ -74,6 +101,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.TestPlatform": {
+            "target": "Package",
+            "version": "[14.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

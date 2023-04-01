@@ -6,12 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Singleton;
 using FactoryMethod;
+using System.Diagnostics.CodeAnalysis;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace _Runner;
 
+[TestClass]
 class Tester
 {
-
     private ITextLogger textLogger;
 
     public Tester(ITextLogger textLogger)
@@ -30,6 +32,7 @@ class Tester
         }
     }
 
+    [TestMethod]
     public void TestRandomGenerator()
     {
         textLogger.Log("Testing if all references of singleton are equal...");
@@ -48,6 +51,7 @@ class Tester
         textLogger.EnterNewLine();
     }
 
+    [TestMethod]
     public void TestShipmentManager()
     {
         ILogistics logistics = new TruckLogistics(40, 30);
