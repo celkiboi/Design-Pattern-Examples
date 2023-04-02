@@ -8,9 +8,10 @@
     ".NETCoreApp,Version=v7.0": {
       "_Runner/1.0.0": {
         "dependencies": {
+          "FactoryMethod": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform": "14.0.0",
           "Singleton": "1.0.0",
-          "FactoryMethod": "1.0.0.0"
+          "FactoryMethod.Reference": "1.0.0.0"
         },
         "runtime": {
           "_Runner.dll": {}
@@ -33,7 +34,7 @@
           "Singleton.dll": {}
         }
       },
-      "FactoryMethod/1.0.0.0": {
+      "FactoryMethod.Reference/1.0.0.0": {
         "runtime": {
           "FactoryMethod.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -61,7 +62,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FactoryMethod/1.0.0.0": {
+    "FactoryMethod.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
