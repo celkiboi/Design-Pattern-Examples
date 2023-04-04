@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "_Runner/1.0.0": {
         "dependencies": {
+          "AbstractFactory": "1.0.0",
           "FactoryMethod": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform": "14.0.0",
           "Singleton": "1.0.0",
@@ -27,6 +28,11 @@
             "assemblyVersion": "14.0.0.0",
             "fileVersion": "14.0.0.1"
           }
+        }
+      },
+      "AbstractFactory/1.0.0": {
+        "runtime": {
+          "AbstractFactory.dll": {}
         }
       },
       "Singleton/1.0.0": {
@@ -56,6 +62,11 @@
       "sha512": "sha512-QlZrNka65U8Nn0NTVU+p6LqQUEUiWifUErbNRevT7zAirbi8xal45vnZLrx75ib2bTkFvhTydTtf3MVYX6hSAA==",
       "path": "microsoft.visualstudio.testplatform/14.0.0",
       "hashPath": "microsoft.visualstudio.testplatform.14.0.0.nupkg.sha512"
+    },
+    "AbstractFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Singleton/1.0.0": {
       "type": "project",

@@ -8,6 +8,9 @@ using Singleton;
 using FactoryMethod;
 using System.Diagnostics.CodeAnalysis;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using AbstractFactory;
+using AbstractFactory.ConcreteFactories;
+using AbstractFactory.Products;
 
 namespace _Runner;
 
@@ -23,7 +26,7 @@ class Tester
 
     public ITextLogger TextLogger
     {
-        get { return TextLogger; }
+        get { return textLogger; }
         set
         {
             if (value is null)
@@ -62,5 +65,26 @@ class Tester
         shipmentManager.Logistics = new ShipLogistics(10, 30, 50);
         textLogger.Log(shipmentManager.CalculateShipmentDollars(300));
         textLogger.EnterNewLine();
+    }
+
+    [TestMethod]
+    public void TestDessertFactories()
+    {
+        IDessertFactory dessertFactory = new ChocolateDessertFactory();
+        LogDesserts(dessertFactory);
+        dessertFactory = new VanillaDesertFactory();
+        LogDesserts(dessertFactory);
+    }
+
+    void LogDesserts(IDessertFactory dessertFactory)
+    {
+        Cookie cookie = dessertFactory.CreateCookie();
+        Donut donut = dessertFactory.CreateDonut();
+        Cake cake = dessertFactory.CreateCake();
+
+        TextLogger.Log<string>(cookie.ToString());
+        TextLogger.Log<string>(donut.ToString());
+        TextLogger.Log<string>(cake.ToString());
+        TextLogger.EnterNewLine();
     }
 }
