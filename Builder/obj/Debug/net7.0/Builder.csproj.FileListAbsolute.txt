@@ -1,0 +1,12 @@
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\bin\Debug\net7.0\Builder.deps.json
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\bin\Debug\net7.0\Builder.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\bin\Debug\net7.0\Builder.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\Builder.csproj.AssemblyReference.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\Builder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\Builder.AssemblyInfoInputs.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\Builder.AssemblyInfo.cs
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\Builder.csproj.CoreCompileInputs.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\Builder.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\refint\Builder.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\Builder.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Builder\obj\Debug\net7.0\ref\Builder.dll

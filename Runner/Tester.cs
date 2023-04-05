@@ -11,6 +11,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using AbstractFactory;
 using AbstractFactory.ConcreteFactories;
 using AbstractFactory.Products;
+using Builder;
 
 namespace _Runner;
 
@@ -86,5 +87,20 @@ class Tester
         TextLogger.Log<string>(donut.ToString());
         TextLogger.Log<string>(cake.ToString());
         TextLogger.EnterNewLine();
+    }
+
+    [TestMethod]
+    public void TestPizzaDirector()
+    {
+        IPizzaBuilder pizzaBuilder = new PizzaBuilder();
+        PizzaDirector pizzaDirector = new(pizzaBuilder);
+        List<Pizza> pizzas = new()
+        {
+            pizzaDirector.BuildCapricciosa(),
+            pizzaDirector.BuildVesuvio(),
+            pizzaDirector.BuildPeperoni()
+        };
+
+        TextLogger.LogCollection(pizzas);
     }
 }

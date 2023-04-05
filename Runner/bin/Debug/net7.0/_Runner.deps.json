@@ -9,6 +9,7 @@
       "_Runner/1.0.0": {
         "dependencies": {
           "AbstractFactory": "1.0.0",
+          "Builder": "1.0.0",
           "FactoryMethod": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform": "14.0.0",
           "Singleton": "1.0.0",
@@ -33,6 +34,11 @@
       "AbstractFactory/1.0.0": {
         "runtime": {
           "AbstractFactory.dll": {}
+        }
+      },
+      "Builder/1.0.0": {
+        "runtime": {
+          "Builder.dll": {}
         }
       },
       "Singleton/1.0.0": {
@@ -64,6 +70,11 @@
       "hashPath": "microsoft.visualstudio.testplatform.14.0.0.nupkg.sha512"
     },
     "AbstractFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Builder/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

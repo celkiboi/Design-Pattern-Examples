@@ -23,6 +23,16 @@
           "bin/placeholder/AbstractFactory.dll": {}
         }
       },
+      "Builder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Builder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Builder.dll": {}
+        }
+      },
       "FactoryMethod/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -66,6 +76,11 @@
       "path": "../AbstractFactory/AbstractFactory.csproj",
       "msbuildProject": "../AbstractFactory/AbstractFactory.csproj"
     },
+    "Builder/1.0.0": {
+      "type": "project",
+      "path": "../Builder/Builder.csproj",
+      "msbuildProject": "../Builder/Builder.csproj"
+    },
     "FactoryMethod/1.0.0": {
       "type": "project",
       "path": "../FactoryMethod/FactoryMethod.csproj",
@@ -80,6 +95,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AbstractFactory >= 1.0.0",
+      "Builder >= 1.0.0",
       "FactoryMethod >= 1.0.0",
       "Microsoft.VisualStudio.TestPlatform >= 14.0.0",
       "Singleton >= 1.0.0"
@@ -120,6 +136,9 @@
           "projectReferences": {
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\AbstractFactory\\AbstractFactory.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\AbstractFactory\\AbstractFactory.csproj"
+            },
+            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Builder\\Builder.csproj": {
+              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Builder\\Builder.csproj"
             },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\FactoryMethod\\FactoryMethod.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\FactoryMethod\\FactoryMethod.csproj"

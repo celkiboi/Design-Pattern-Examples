@@ -22,3 +22,5 @@ C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Microsoft.Vi
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\AbstractFactory.dll
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\AbstractFactory.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Builder.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Builder.pdb
