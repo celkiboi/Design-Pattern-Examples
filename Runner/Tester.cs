@@ -13,6 +13,7 @@ using AbstractFactory.ConcreteFactories;
 using AbstractFactory.Products;
 using Builder;
 using Prototype;
+using Adapter;
 
 namespace _Runner;
 
@@ -117,5 +118,25 @@ class Tester
         };
 
         TextLogger.LogCollection(cars);
+    }
+
+    [TestMethod]
+    public void TestColdCuts()
+    {
+        List<IColdCuts> cuts = new()
+        {
+            new MeatCuts(20, 100, "Peperonni"),
+            new CheeseCutsAdapter(30, 200, "Gouda")
+        };
+
+        TextLogger.LogCollection(cuts);
+
+        TextLogger.EnterNewLine();
+        foreach (IColdCuts product in cuts)
+        {
+            TextLogger.Log($"Price of {product.ProductName} is: ");
+            TextLogger.Log(product.CalculatePrice());
+            TextLogger.EnterNewLine();
+        }
     }
 }

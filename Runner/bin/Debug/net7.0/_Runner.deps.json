@@ -13,6 +13,7 @@
           "FactoryMethod": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform": "14.0.0",
           "Singleton": "1.0.0",
+          "Adapter": "1.0.0.0",
           "FactoryMethod.Reference": "1.0.0.0",
           "Prototype": "1.0.0.0"
         },
@@ -45,6 +46,14 @@
       "Singleton/1.0.0": {
         "runtime": {
           "Singleton.dll": {}
+        }
+      },
+      "Adapter/1.0.0.0": {
+        "runtime": {
+          "Adapter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "FactoryMethod.Reference/1.0.0.0": {
@@ -90,6 +99,11 @@
     },
     "Singleton/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Adapter/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
