@@ -24,3 +24,5 @@ C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\AbstractFact
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\AbstractFactory.pdb
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Builder.dll
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Builder.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Prototype.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Prototype.pdb

@@ -1,0 +1,12 @@
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\bin\Debug\net7.0\Prototype.deps.json
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\bin\Debug\net7.0\Prototype.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\bin\Debug\net7.0\Prototype.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\Prototype.csproj.AssemblyReference.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\Prototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\Prototype.AssemblyInfoInputs.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\Prototype.AssemblyInfo.cs
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\Prototype.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\refint\Prototype.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\Prototype.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Prototype\obj\Debug\net7.0\ref\Prototype.dll

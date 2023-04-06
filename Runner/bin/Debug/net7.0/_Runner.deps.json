@@ -13,7 +13,8 @@
           "FactoryMethod": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform": "14.0.0",
           "Singleton": "1.0.0",
-          "FactoryMethod.Reference": "1.0.0.0"
+          "FactoryMethod.Reference": "1.0.0.0",
+          "Prototype": "1.0.0.0"
         },
         "runtime": {
           "_Runner.dll": {}
@@ -53,6 +54,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Prototype/1.0.0.0": {
+        "runtime": {
+          "Prototype.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -85,6 +94,11 @@
       "sha512": ""
     },
     "FactoryMethod.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Prototype/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

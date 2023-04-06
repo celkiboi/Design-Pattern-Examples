@@ -12,6 +12,7 @@ using AbstractFactory;
 using AbstractFactory.ConcreteFactories;
 using AbstractFactory.Products;
 using Builder;
+using Prototype;
 
 namespace _Runner;
 
@@ -102,5 +103,19 @@ class Tester
         };
 
         TextLogger.LogCollection(pizzas);
+    }
+
+    [TestMethod]
+    public void TestPrototypeCar()
+    {
+        List<ICar> cars = new()
+        {
+            new PetrolCar("Porsche", "911 Targa GTS", "OS-911-TG", 6),
+            new PetrolCar("Ferrari", "812 GTS", "ZG-812-GTS", 12),
+            new ElectricCar("Rimac", "Nevera", "ZG-1914-HP", 120),
+            new ElectricCar("Porsche", "Taycan Turbo S", "OS-560-KW", 93.4)
+        };
+
+        TextLogger.LogCollection(cars);
     }
 }
