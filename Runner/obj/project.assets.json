@@ -53,14 +53,14 @@
           "bin/placeholder/Composite.dll": {}
         }
       },
-      "FactoryMethod/1.0.0": {
+      "Decorator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/FactoryMethod.dll": {}
+          "bin/placeholder/Decorator.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FactoryMethod.dll": {}
+          "bin/placeholder/Decorator.dll": {}
         }
       },
       "Prototype/1.0.0": {
@@ -121,10 +121,10 @@
       "path": "../Composite/Composite.csproj",
       "msbuildProject": "../Composite/Composite.csproj"
     },
-    "FactoryMethod/1.0.0": {
+    "Decorator/1.0.0": {
       "type": "project",
-      "path": "../FactoryMethod/FactoryMethod.csproj",
-      "msbuildProject": "../FactoryMethod/FactoryMethod.csproj"
+      "path": "../Decorator/Decorator.csproj",
+      "msbuildProject": "../Decorator/Decorator.csproj"
     },
     "Prototype/1.0.0": {
       "type": "project",
@@ -143,7 +143,7 @@
       "Adapter >= 1.0.0",
       "Builder >= 1.0.0",
       "Composite >= 1.0.0",
-      "FactoryMethod >= 1.0.0",
+      "Decorator >= 1.0.0",
       "Microsoft.VisualStudio.TestPlatform >= 14.0.0",
       "Prototype >= 1.0.0",
       "Singleton >= 1.0.0"
@@ -194,8 +194,8 @@
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Composite\\Composite.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Composite\\Composite.csproj"
             },
-            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\FactoryMethod\\FactoryMethod.csproj": {
-              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\FactoryMethod\\FactoryMethod.csproj"
+            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Decorator\\Decorator.csproj": {
+              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Decorator\\Decorator.csproj"
             },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Prototype\\Prototype.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Prototype\\Prototype.csproj"

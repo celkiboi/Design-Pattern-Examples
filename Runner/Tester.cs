@@ -16,6 +16,7 @@ using Prototype;
 using Adapter;
 using Composite;
 using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
+using Decorator;
 
 namespace _Runner;
 
@@ -153,5 +154,16 @@ class Tester
         folder.AddContent(nestedFolder);
 
         TextLogger.Log($"Folder size: {folder.SizeBytes}");
+    }
+
+    [TestMethod]
+    public void TestCandyBars()
+    {
+        ICandyBar candyBar = new CandyBar();
+        candyBar = new MilkCandyBarDecorator(candyBar);
+        candyBar = new CoconutCandyBarDecorator(candyBar);
+        candyBar = new ChocolateCandyBarDecorator(candyBar);
+
+        TextLogger.Log(candyBar.GetName());
     }
 }
