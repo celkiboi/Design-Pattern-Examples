@@ -9,13 +9,14 @@
       "_Runner/1.0.0": {
         "dependencies": {
           "AbstractFactory": "1.0.0",
+          "Adapter": "1.0.0",
           "Builder": "1.0.0",
+          "Composite": "1.0.0",
           "FactoryMethod": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform": "14.0.0",
+          "Prototype": "1.0.0",
           "Singleton": "1.0.0",
-          "Adapter": "1.0.0.0",
-          "FactoryMethod.Reference": "1.0.0.0",
-          "Prototype": "1.0.0.0"
+          "FactoryMethod.Reference": "1.0.0.0"
         },
         "runtime": {
           "_Runner.dll": {}
@@ -38,9 +39,24 @@
           "AbstractFactory.dll": {}
         }
       },
+      "Adapter/1.0.0": {
+        "runtime": {
+          "Adapter.dll": {}
+        }
+      },
       "Builder/1.0.0": {
         "runtime": {
           "Builder.dll": {}
+        }
+      },
+      "Composite/1.0.0": {
+        "runtime": {
+          "Composite.dll": {}
+        }
+      },
+      "Prototype/1.0.0": {
+        "runtime": {
+          "Prototype.dll": {}
         }
       },
       "Singleton/1.0.0": {
@@ -48,25 +64,9 @@
           "Singleton.dll": {}
         }
       },
-      "Adapter/1.0.0.0": {
-        "runtime": {
-          "Adapter.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "FactoryMethod.Reference/1.0.0.0": {
         "runtime": {
           "FactoryMethod.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Prototype/1.0.0.0": {
-        "runtime": {
-          "Prototype.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -92,7 +92,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Adapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Builder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Composite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Prototype/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -102,17 +117,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Adapter/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "FactoryMethod.Reference/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Prototype/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

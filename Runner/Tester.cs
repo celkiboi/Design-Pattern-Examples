@@ -14,6 +14,8 @@ using AbstractFactory.Products;
 using Builder;
 using Prototype;
 using Adapter;
+using Composite;
+using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
 
 namespace _Runner;
 
@@ -138,5 +140,18 @@ class Tester
             TextLogger.Log(product.CalculatePrice());
             TextLogger.EnterNewLine();
         }
+    }
+
+    [TestMethod]
+    public void TestFileSystem()
+    {
+        Folder folder = new("Folder");
+        folder.AddContent(new Composite.File("text.txt", 512));
+
+        Folder nestedFolder = new("Nested Folder");
+        nestedFolder.AddContent(new Composite.File("word.doc", 1024));
+        folder.AddContent(nestedFolder);
+
+        TextLogger.Log($"Folder size: {folder.SizeBytes}");
     }
 }

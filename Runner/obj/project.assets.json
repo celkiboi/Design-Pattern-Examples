@@ -23,6 +23,16 @@
           "bin/placeholder/AbstractFactory.dll": {}
         }
       },
+      "Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Adapter.dll": {}
+        }
+      },
       "Builder/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -33,6 +43,16 @@
           "bin/placeholder/Builder.dll": {}
         }
       },
+      "Composite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Composite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Composite.dll": {}
+        }
+      },
       "FactoryMethod/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -41,6 +61,16 @@
         },
         "runtime": {
           "bin/placeholder/FactoryMethod.dll": {}
+        }
+      },
+      "Prototype/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Prototype.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Prototype.dll": {}
         }
       },
       "Singleton/1.0.0": {
@@ -76,15 +106,30 @@
       "path": "../AbstractFactory/AbstractFactory.csproj",
       "msbuildProject": "../AbstractFactory/AbstractFactory.csproj"
     },
+    "Adapter/1.0.0": {
+      "type": "project",
+      "path": "../Adapter/Adapter.csproj",
+      "msbuildProject": "../Adapter/Adapter.csproj"
+    },
     "Builder/1.0.0": {
       "type": "project",
       "path": "../Builder/Builder.csproj",
       "msbuildProject": "../Builder/Builder.csproj"
     },
+    "Composite/1.0.0": {
+      "type": "project",
+      "path": "../Composite/Composite.csproj",
+      "msbuildProject": "../Composite/Composite.csproj"
+    },
     "FactoryMethod/1.0.0": {
       "type": "project",
       "path": "../FactoryMethod/FactoryMethod.csproj",
       "msbuildProject": "../FactoryMethod/FactoryMethod.csproj"
+    },
+    "Prototype/1.0.0": {
+      "type": "project",
+      "path": "../Prototype/Prototype.csproj",
+      "msbuildProject": "../Prototype/Prototype.csproj"
     },
     "Singleton/1.0.0": {
       "type": "project",
@@ -95,9 +140,12 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AbstractFactory >= 1.0.0",
+      "Adapter >= 1.0.0",
       "Builder >= 1.0.0",
+      "Composite >= 1.0.0",
       "FactoryMethod >= 1.0.0",
       "Microsoft.VisualStudio.TestPlatform >= 14.0.0",
+      "Prototype >= 1.0.0",
       "Singleton >= 1.0.0"
     ]
   },
@@ -137,11 +185,20 @@
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\AbstractFactory\\AbstractFactory.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\AbstractFactory\\AbstractFactory.csproj"
             },
+            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Adapter\\Adapter.csproj": {
+              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Adapter\\Adapter.csproj"
+            },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Builder\\Builder.csproj"
             },
+            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Composite\\Composite.csproj": {
+              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Composite\\Composite.csproj"
+            },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\FactoryMethod\\FactoryMethod.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\FactoryMethod\\FactoryMethod.csproj"
+            },
+            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Prototype\\Prototype.csproj": {
+              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Prototype\\Prototype.csproj"
             },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\RPPOON_Patterns\\Singleton.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\RPPOON_Patterns\\Singleton.csproj"

@@ -28,3 +28,5 @@ C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Prototype.dl
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Prototype.pdb
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Adapter.dll
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Adapter.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Composite.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Composite.pdb
