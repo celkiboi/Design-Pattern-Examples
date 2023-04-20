@@ -13,6 +13,7 @@
           "Builder": "1.0.0",
           "Composite": "1.0.0",
           "Decorator": "1.0.0",
+          "Facade": "1.0.0",
           "Microsoft.VisualStudio.TestPlatform": "14.0.0",
           "Prototype": "1.0.0",
           "Singleton": "1.0.0",
@@ -57,6 +58,11 @@
       "Decorator/1.0.0": {
         "runtime": {
           "Decorator.dll": {}
+        }
+      },
+      "Facade/1.0.0": {
+        "runtime": {
+          "Facade.dll": {}
         }
       },
       "Prototype/1.0.0": {
@@ -113,6 +119,11 @@
       "sha512": ""
     },
     "Decorator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Facade/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -63,6 +63,16 @@
           "bin/placeholder/Decorator.dll": {}
         }
       },
+      "Facade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Facade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Facade.dll": {}
+        }
+      },
       "Prototype/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -126,6 +136,11 @@
       "path": "../Decorator/Decorator.csproj",
       "msbuildProject": "../Decorator/Decorator.csproj"
     },
+    "Facade/1.0.0": {
+      "type": "project",
+      "path": "../Facade/Facade.csproj",
+      "msbuildProject": "../Facade/Facade.csproj"
+    },
     "Prototype/1.0.0": {
       "type": "project",
       "path": "../Prototype/Prototype.csproj",
@@ -144,6 +159,7 @@
       "Builder >= 1.0.0",
       "Composite >= 1.0.0",
       "Decorator >= 1.0.0",
+      "Facade >= 1.0.0",
       "Microsoft.VisualStudio.TestPlatform >= 14.0.0",
       "Prototype >= 1.0.0",
       "Singleton >= 1.0.0"
@@ -196,6 +212,9 @@
             },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Decorator\\Decorator.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Decorator\\Decorator.csproj"
+            },
+            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Facade\\Facade.csproj": {
+              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Facade\\Facade.csproj"
             },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Prototype\\Prototype.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Prototype\\Prototype.csproj"

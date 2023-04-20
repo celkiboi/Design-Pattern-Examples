@@ -21,6 +21,7 @@
     <ProjectReference Include="..\Builder\Builder.csproj" />
     <ProjectReference Include="..\Composite\Composite.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
+    <ProjectReference Include="..\Facade\Facade.csproj" />
     <ProjectReference Include="..\Prototype\Prototype.csproj" />
     <ProjectReference Include="..\RPPOON_Patterns\Singleton.csproj" />
   </ItemGroup>

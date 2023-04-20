@@ -17,6 +17,7 @@ using Adapter;
 using Composite;
 using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
 using Decorator;
+using Facade;
 
 namespace _Runner;
 
@@ -165,5 +166,25 @@ class Tester
         candyBar = new ChocolateCandyBarDecorator(candyBar);
 
         TextLogger.Log(candyBar.GetName());
+    }
+
+    [TestMethod]
+    public void TestWeather()
+    {
+        List<WeatherForcast> weatherList = new()
+        {
+            new("Osijek"),
+            new("Miami"),
+            new("Tokyo"),
+            new("Paris"),
+            new("Berlin"),
+            new("Austin")
+        };
+
+        foreach(WeatherForcast weather in weatherList)
+        {
+            TextLogger.Log(weather.GetWeatherForcast());
+            TextLogger.EnterNewLine();
+        }
     }
 }
