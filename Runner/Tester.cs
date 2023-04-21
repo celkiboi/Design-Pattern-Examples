@@ -18,6 +18,7 @@ using Composite;
 using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
 using Decorator;
 using Facade;
+using Bridge;
 
 namespace _Runner;
 
@@ -186,5 +187,14 @@ class Tester
             TextLogger.Log(weather.GetWeatherForcast());
             TextLogger.EnterNewLine();
         }
+    }
+
+    [TestMethod]
+    public void TestRemotes()
+    {
+        Radio radio = new();
+        Remote remote = new InfraredRemote(radio);
+        remote.IncrementSound();
+        TextLogger.Log(radio.VolumeLevel);
     }
 }

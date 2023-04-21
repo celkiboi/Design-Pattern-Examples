@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "RPPOON_Pattern
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_Runner", "Runner\_Runner.csproj", "{854A0695-9897-4F21-8D8E-5DAE272D3070}"
 	ProjectSection(ProjectDependencies) = postProject
+		{64DA150E-EE0E-4075-A84B-070F3009FACF} = {64DA150E-EE0E-4075-A84B-070F3009FACF}
 		{70FC06AB-9B43-40C6-B6F3-9FB7AE6B58D3} = {70FC06AB-9B43-40C6-B6F3-9FB7AE6B58D3}
 		{9279315F-7CE5-46EB-A75F-6EB4BFF2603D} = {9279315F-7CE5-46EB-A75F-6EB4BFF2603D}
 	EndProjectSection
@@ -30,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{4AB71176-AE64-4410-B979-CC12942E3251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{A13E4AEF-CBEF-417A-801B-8A3AD2DB412B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{A13E4AEF-CBEF-417A-801B-8A3AD2DB412B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{64DA150E-EE0E-4075-A84B-070F3009FACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +81,10 @@ Global
 		{A13E4AEF-CBEF-417A-801B-8A3AD2DB412B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13E4AEF-CBEF-417A-801B-8A3AD2DB412B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A13E4AEF-CBEF-417A-801B-8A3AD2DB412B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DA150E-EE0E-4075-A84B-070F3009FACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DA150E-EE0E-4075-A84B-070F3009FACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DA150E-EE0E-4075-A84B-070F3009FACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DA150E-EE0E-4075-A84B-070F3009FACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

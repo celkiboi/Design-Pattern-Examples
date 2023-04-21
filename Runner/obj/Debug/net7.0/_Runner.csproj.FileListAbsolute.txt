@@ -34,3 +34,5 @@ C:\Users\legot\source\repos\RPPOON_Patterns\Runner\obj\Debug\net7.0\_Runner.genr
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\obj\Debug\net7.0\ref\_Runner.dll
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Facade.dll
 C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Facade.pdb
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Bridge.dll
+C:\Users\legot\source\repos\RPPOON_Patterns\Runner\bin\Debug\net7.0\Bridge.pdb

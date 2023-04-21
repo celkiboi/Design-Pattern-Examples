@@ -33,6 +33,16 @@
           "bin/placeholder/Adapter.dll": {}
         }
       },
+      "Bridge/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Bridge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bridge.dll": {}
+        }
+      },
       "Builder/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -121,6 +131,11 @@
       "path": "../Adapter/Adapter.csproj",
       "msbuildProject": "../Adapter/Adapter.csproj"
     },
+    "Bridge/1.0.0": {
+      "type": "project",
+      "path": "../Bridge/Bridge.csproj",
+      "msbuildProject": "../Bridge/Bridge.csproj"
+    },
     "Builder/1.0.0": {
       "type": "project",
       "path": "../Builder/Builder.csproj",
@@ -156,6 +171,7 @@
     "net7.0": [
       "AbstractFactory >= 1.0.0",
       "Adapter >= 1.0.0",
+      "Bridge >= 1.0.0",
       "Builder >= 1.0.0",
       "Composite >= 1.0.0",
       "Decorator >= 1.0.0",
@@ -203,6 +219,9 @@
             },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Adapter\\Adapter.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Adapter\\Adapter.csproj"
+            },
+            "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Bridge\\Bridge.csproj": {
+              "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Bridge\\Bridge.csproj"
             },
             "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Builder\\Builder.csproj": {
               "projectPath": "C:\\Users\\legot\\source\\repos\\RPPOON_Patterns\\Builder\\Builder.csproj"

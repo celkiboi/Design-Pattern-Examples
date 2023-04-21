@@ -10,6 +10,7 @@
         "dependencies": {
           "AbstractFactory": "1.0.0",
           "Adapter": "1.0.0",
+          "Bridge": "1.0.0",
           "Builder": "1.0.0",
           "Composite": "1.0.0",
           "Decorator": "1.0.0",
@@ -43,6 +44,11 @@
       "Adapter/1.0.0": {
         "runtime": {
           "Adapter.dll": {}
+        }
+      },
+      "Bridge/1.0.0": {
+        "runtime": {
+          "Bridge.dll": {}
         }
       },
       "Builder/1.0.0": {
@@ -104,6 +110,11 @@
       "sha512": ""
     },
     "Adapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bridge/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
